@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/scale-ai-label-consensus-fence",
+  "source_sha": "0637f3ffe751e09e6c5c36ab34645d65c8422785d4abade532873af5a44f7578",
+  "proof_id": "elite-scale-ai-label-consensus-fence-1786356696",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/scale-ai-label-consensus-fence:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/scale-ai-label-consensus-fence/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:11Z",
+  "artifact_hashes": {
+    "operability_receipt": "bc8ecfdafa8882a434f2bd411ba6345f6e0203df8c9f19dd6a8284b542b2b887"
+  }
+}

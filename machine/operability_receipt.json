@@ -1,0 +1,26 @@
+{
+  "schema": "glaciereq.operability-receipt.v1",
+  "repository": "GlacierEQ/scale-ai-label-consensus-fence",
+  "at": "2026-08-10T10:11Z",
+  "source_sha": "0637f3ffe751e09e6c5c36ab34645d65c8422785d4abade532873af5a44f7578",
+  "entry": "scripts/operate.py",
+  "primary_output": {
+    "module": "label_consensus_fence",
+    "ok": true,
+    "repository": "GlacierEQ/scale-ai-label-consensus-fence",
+    "smoke": {
+      "args": [
+        "LabelConsensusFenceRequest(subject_id='s"
+      ],
+      "content_checked": true,
+      "invoked": true,
+      "kind": "class",
+      "method": "evaluate",
+      "module_local": true,
+      "name": "LabelConsensusFence",
+      "result": "LabelConsensusFenceReceipt(decision=<Decision.ALLOW: 'ALLOW'>, reasons=('scaffold_allow',), digest='de5a200a89430d2dec7318cf5aea51ee466c45d752e842d6d852e6bed15c045c', metrics={'scaffold': True, 'payload_keys': [], 'budget': 1.0})"
+    }
+  },
+  "dual_run_ok": true,
+  "result": "PASS"
+}

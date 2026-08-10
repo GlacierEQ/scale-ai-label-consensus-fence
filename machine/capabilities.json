@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/scale-ai-label-consensus-fence",
+  "capabilities": [
+    {
+      "id": "label-consensus-fence",
+      "name": "Label Consensus Fence",
+      "status": "SCAFFOLD",
+      "module": "src/label_consensus_fence.py"
+    }
+  ]
+}

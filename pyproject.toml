@@ -1,0 +1,10 @@
+[project]
+name = "scale-ai-label-consensus-fence"
+version = "0.0.1"
+description = "Scaffold: Label Consensus Fence (independent Scale AI lens)"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
