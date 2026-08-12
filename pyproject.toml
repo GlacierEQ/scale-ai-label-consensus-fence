@@ -1,9 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "scale-ai-label-consensus-fence"
-version = "0.0.1"
-description = "Scaffold: Label Consensus Fence (independent Scale AI lens)"
+version = "1.0.0"
+description = "Provenance-weighted label consensus and quarantine fence"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+label-consensus-fence = "label_consensus_cli:main"
+
+[tool.setuptools]
+py-modules = ["label_consensus_fence", "label_consensus_cli", "promotion_authority"]
+package-dir = {"" = "src"}
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
